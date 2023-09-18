@@ -2,7 +2,7 @@
 Backup and restore data from Mongodb in a Docker container.
 
 
-In the docker-compose.yml file, we are adding a directory named ./backup to the volumes section, linking it to compose.yml as - ./backup:/backup.
+In the docker-compose.yml file, we are adding a directory named ./backup to the volumes section, linking it to compose.yml as - ./backup:/backup
 
 
 
