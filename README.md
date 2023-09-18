@@ -14,7 +14,7 @@ $ cd backup
 ```
 
 
-### This command is used to backup data from a MongoDB database."
+### This command is used to backup data from a MongoDB database.
 ```
 $ mongodump --username <user> --password <pass> --out=/backup/
 ```
