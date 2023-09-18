@@ -16,12 +16,12 @@ $ cd backup
 
 ### This command is used to backup data from a MongoDB database.
 ```
-$ mongodump --username <user> --password <pass> --out=/backup/
+$ mongodump --username admin_user --password admin_pass --out=/backup/
 ```
 
 
 ### restore the database
 ```
-$ mongorestore --db=<dbname> --username=<user> --password=<pass> /backup/<dbname>
+$ mongorestore --db=my_database --username=admin_user --password=admin_pass /backup/my_database
 ```
 
