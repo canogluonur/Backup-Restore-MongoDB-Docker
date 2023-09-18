@@ -22,6 +22,6 @@ $ mongodump --username admin_user --password admin_pass --out=/backup/
 
 ### restore the database
 ```
-$ mongorestore --db=my_database --username=admin_user --password=admin_pass /backup/my_database
+$ mongorestore --username admin_user --password admin_pass --authenticationDatabase admin --db my_database  /backup/dms-uploadservice/
 ```
 
